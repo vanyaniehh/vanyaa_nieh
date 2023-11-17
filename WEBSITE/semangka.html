@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 80vh;
+            display: grid;
+            place-items: center;
+            background-color: aqua;
+        }
+        .shape{
+            width: 360px;
+            height: 160px;
+            background-color: #e4312b;
+            border: 10px solid white;
+            box-shadow: 0 0 0 15px #149954;
+            border-radius: 0 0 180px 180px;
+            clip-path: inset(40px-15px-15px-15px);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            
+
+        }
+        span{
+            display: block;
+            width: 8px;
+            height: 14px;
+            background-color: black;
+            border-radius: 10px;
+            box-shadow: 20px 15px 0 black;
+        }
+        spam:last-child{
+            box-shadow: none;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="shape">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</body>
+</html>
